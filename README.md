@@ -9,15 +9,15 @@ A simple and interactive to-do list built with HTML, CSS, and JavaScript. This p
 - Add and delete to-do items
 - Mark tasks as complete or incomplete
 - Visual indicators using icons and line-through styles
-- Persist data with local storage (optional upgrade)
-- Clean UI using semantic HTML and modular JavaScript
+- Persist data with local storage (optional upgrade) so your to-do list does not delete when the page is refreshed 
+- Clean UI using HTML & CSS 
 
 
 ##Tech Stack
 
-- **HTML5** for structure
-- **CSS3** for layout and styles
-- **Vanilla JavaScript** for app logic and interactivity
+- HTML: structure
+- CSS: layout and styles
+- JavaScript: app logic and interactivity
 
 
 ##How It Works
