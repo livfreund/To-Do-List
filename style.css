@@ -1,0 +1,115 @@
+/* Global Reset and Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #515863;
+  font-family: "Titillium Web", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100vh;
+  color: #2c3e50;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3498db;
+  color: white;
+  padding: 20px;
+}
+
+.clear {
+  cursor: pointer;
+}
+
+#date {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 10px;
+}
+
+.item i {
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.item i.co:hover {
+  color: #2ecc71;
+}
+
+.item i.de:hover {
+  color: #e74c3c;
+}
+
+.text {
+  flex: 1;
+  margin: 0 10px;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Add To-Do Input */
+.add-to-do {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-top: 1px solid #ecf0f1;
+  background: #f9f9f9;
+}
+
+.add-to-do i {
+  font-size: 24px;
+  color: #3498db;
+  margin-right: 10px;
+}
+
+.add-to-do input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.add-to-do input:focus {
+  outline: none;
+  border-color: #3498db;
+}
