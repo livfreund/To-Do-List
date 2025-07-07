@@ -1,5 +1,3 @@
-# To-Do-List
-
 # To-Do List Web App
 
 A simple and interactive to-do list built with HTML, CSS, and JavaScript. This project showcases dynamic DOM manipulation, event handling, and local data management.
