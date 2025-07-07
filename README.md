@@ -1,10 +1,10 @@
 # To-Do-List
 
-#To-Do List Web App
+# To-Do List Web App
 
 A simple and interactive to-do list built with HTML, CSS, and JavaScript. This project showcases dynamic DOM manipulation, event handling, and local data management.
 
-##Features
+## Features
 
 - Add and delete to-do items
 - Mark tasks as complete or incomplete
@@ -13,14 +13,14 @@ A simple and interactive to-do list built with HTML, CSS, and JavaScript. This p
 - Clean UI using HTML & CSS 
 
 
-##Tech Stack
+## Tech Stack
 
 - HTML: structure
 - CSS: layout and styles
 - JavaScript: app logic and interactivity
 
 
-##How It Works
+## How It Works
 
 - Users can add a new task via an input box and button.
 - Each task item includes interactive icons to mark as complete or delete.
